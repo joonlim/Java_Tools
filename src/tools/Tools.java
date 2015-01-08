@@ -9,7 +9,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.Scanner;
-import static tools.FileReader.readFile;
+import static tools.FileTools.readFile;
+import static tools.WebTools.saveImage;
+import static tools.WebTools.saveHtmlFile;
 import static tools.Serializer.deserialize;
 import static tools.Serializer.serialize;
 
@@ -37,16 +39,18 @@ public class Tools implements Serializable {
 //        System.out.println(readFile(fileName));
 
 ////////////////////////////////////////////////////////////////////////////////
-        // Serializer test
-        Rectangle test = new Rectangle(5, 2);
-
-        // example path: tools/res/testfile.obj
-        serialize(test, "testfile");
-
-        Rectangle test2 = deserialize("testfile");
-
-        System.out.println(test2);
-
+//        // Serializer test
+//        Rectangle test = new Rectangle(5, 2);
+//
+//        // example path: tools/res/testfile.obj
+//        serialize(test, "testfile");
+//
+//        Rectangle test2 = deserialize("testfile");
+//
+//        System.out.println(test2);
+////////////////////////////////////////////////////////////////////////////////
+//        // Save Image test
+//        saveImage("https://i.imgur.com/J8sK1yp.gif", ".gif");
 
 
     }

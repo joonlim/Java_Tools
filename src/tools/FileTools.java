@@ -13,13 +13,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * The FileReader.readFile() method accepts a String object for the file
+ * The FileTools.readFile() method accepts a String object for the file
  * location and returns a string with the data contained on the file.
  *
  *
  * @author Joon
  */
-public class FileReader {
+public class FileTools {
 
     public static String readFile(String fileName) throws IOException, FileNotFoundException {
 
