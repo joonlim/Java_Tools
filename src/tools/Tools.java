@@ -51,8 +51,6 @@ public class Tools implements Serializable {
 ////////////////////////////////////////////////////////////////////////////////
 //        // Save Image test
 //        saveImage("https://i.imgur.com/J8sK1yp.gif", ".gif");
-
-
     }
 
 }

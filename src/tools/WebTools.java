@@ -77,11 +77,10 @@ public class WebTools {
      * the name of the output file you wish to create that will contain the
      * image file.
      *
-     * urlString should be in the format of
-     * "http://i.imgur.com/9CtcIIk.jpg"
+     * urlString should be in the format of "http://i.imgur.com/9CtcIIk.jpg"
      *
-     * outputFileName should be in the format of "<file-name>.jpg"
-     * can also be gif or png
+     * outputFileName should be in the format of "<file-name>.jpg" can also be
+     * gif or png
      *
      * @param imageURL
      * @param outputFileName
@@ -103,5 +102,4 @@ public class WebTools {
         os.close();
 
     }
-
 }

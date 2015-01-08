@@ -13,8 +13,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * The FileTools.readFile() method accepts a String object for the file
- * location and returns a string with the data contained on the file.
+ * The FileTools.readFile() method accepts a String object for the file location
+ * and returns a string with the data contained on the file.
  *
  *
  * @author Joon
