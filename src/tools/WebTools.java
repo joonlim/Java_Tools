@@ -102,4 +102,8 @@ public class WebTools {
         os.close();
 
     }
+    
+    public static void main(String[] args) throws IOException {
+                saveImage("https://i.imgur.com/J8sK1yp.gif", ".gif");
+    }
 }
